@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center
+}
+
+:root{
+    --color-gray-100:#cecaca;
+}
+
+
+#btnOpenModal{
+    user-select: none;
+
+    margin-top: 70px;
+}
+#check{
+    display: none;
+    user-select: none;
+    
+}
+
+#modalTest{
+
+    margin:100px;
+    width: 600px;
+    padding: 20px;
+    height: 200px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+    border: none;
+   
+
+
+}
+
+#modalTest::backdrop{
+    background-color: rgba(0,0,0,0.5);
+}
